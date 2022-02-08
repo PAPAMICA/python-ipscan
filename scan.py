@@ -139,7 +139,7 @@ for address, data in test.items():
         if data.get('online') == 1:
             #if data[2] != None:
             #    address = address + "(" + data[1] + ")"
-            if data.get('open_port') !Ò= None:
+            if data.get('open_port') != None:
                 host_ports = str(data.get('open_port'))
             else:
                 host_ports = ""
